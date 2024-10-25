@@ -1,0 +1,13 @@
+
+
+POST http://localhost:3000/totalValue/
+Content-Type: application/json
+
+{
+    "products": [
+        { "name": "Apple iphone 14 (128GB)", "price": 59999, "quantity": 1 },
+        { "name": "Redmi note 13 pro 5G (128GB) ", "price": 22999, "quantity": 2 },
+        { "name": "Redmi 13 5G (128GB)", "price": 12999, "quantity": 2 }
+    ]
+}
+
